@@ -59,6 +59,12 @@ section h2 {
   font-weight: bold;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
 .project {
   background-color: #333;
   padding: 20px;
